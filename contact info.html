@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact information</title>
+</head>
+
+<body>
+  <h3>My personal contact details</h3>
+  <ul>
+    <li>Name: Danny Engels</li>
+    <li>Adress: Jan van Goyenlaan 1-004</li>
+    <li>Age: 25</li>
+    <li>Phone number: 06-42824468</li>
+    <li>e-mail: danny85@live.nl</li>
+    <li>Birth date: 11-09-1993</li>
+    <li>Gender: Male</li>
+  </ul>
+  <hr>
+<form action="contactform.php" method="post">
+  <input type="text" name="email" placeholder="example@email.com">
+  <input type="text" name="email" value="example@email.com">
+  female: <input type="radio" name="Gender" value="Male">
+  Male: <input type="radio" name="Gender" value="female">
+  Other: <input type="radio" name="Gender" value="other" checked>
+  <input type="password" name="pwd" placeholder="Password">
+  <textarea name="message" placeholder="write a message"></textarea>
+  <button type="submit" name="submit">submit</button>
+  <select name="car">
+    <option value="None">None</option>
+    <option value="car2">Ford</option>
+    <option value="car3">Opel</option>
+    <option value="car4">Mercedes</option>
+  </select>
+
+</form>
+
+</body>
+
+</html>
